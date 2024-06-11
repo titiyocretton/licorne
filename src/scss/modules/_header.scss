@@ -1,0 +1,54 @@
+.header-background {
+  background-image: url(../img/header-background-paysage.svg);
+  background-position: center;
+  background-size: cover;
+  height: 830px;
+}
+
+.header-background-color {
+  background: #fbdf9d;
+  height: 820px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  top: 45px;
+  z-index: -1;
+}
+
+.header-background-color img:first-child {
+  height: 500px;
+  align-self: flex-end;
+}
+
+.header-background-color img:last-child {
+  height: 468px;
+}
+
+.header-decorativ {
+  width: 875px;
+  height: 230px;
+  background: white;
+  transform: rotate(-2.57deg);
+  position: relative;
+  margin-left: -860px;
+  top: 10px;
+}
+
+.header-decorativ-border {
+  width: 875px;
+  height: 230px;
+  border: 3px solid var(--darker, #562612);
+  transform: rotate(-2.57deg);
+  position: relative;
+  z-index: 1;
+}
+
+.header-decorativ-container {
+  height: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 275px;
+}
