@@ -1,10 +1,10 @@
 footer {
   text-align: center;
   color: var(--darker-color);
-  background: #fdefce;
   background-position: center;
   background-size: cover;
-  padding-bottom: 65px;
+  background: #fdefce;
+  height: 673px;
 }
 
 .footer-logo-container {
@@ -33,5 +33,10 @@ footer {
 .footer-background-container {
   display: flex;
   flex-direction: column;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
+  height: 162px;
+}
+
+.footer-triangle {
+  height: 0;
 }
