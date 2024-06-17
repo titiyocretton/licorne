@@ -40,3 +40,28 @@ footer {
 .footer-triangle {
   height: 0;
 }
+
+.footer-decorativ {
+  display: flex;
+  height: 0;
+  justify-content: space-between;
+}
+
+.footer-decorativ svg:first-child {
+  height: 470px;
+  z-index: 10;
+  position: relative;
+  top: 203px;
+}
+
+.footer-decorativ svg:last-child {
+  height: 655px;
+  z-index: 10;
+  position: relative;
+  top: -115px;
+}
+
+.footer-decorativ svg path {
+  fill: var(--secondary-color);
+  opacity: 40%;
+}
