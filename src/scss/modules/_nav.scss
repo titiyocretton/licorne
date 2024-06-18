@@ -9,7 +9,39 @@
   height: 20px;
 }
 
-.nav-secondary a {
+.nav-connect-container {
   display: flex;
   gap: 10px;
+}
+
+.nav-secondary svg path {
+  fill: var(--darker-color);
+}
+
+.nav-decorativ div {
+  height: 30px;
+  border: 1.5px solid var(--darker-color);
+  position: relative;
+  top: -25px;
+  width: 125%;
+  margin-left: -10%;
+}
+
+.nav-decorativ {
+  height: 0px;
+  transition: 0.2s;
+}
+
+.nav-secondary svg + .nav-decorativ div {
+  top: -30px;
+}
+
+.nav-decorativ {
+  opacity: 0;
+}
+
+.nav a:hover .nav-decorativ,
+.nav-secondary a:hover .nav-decorativ {
+  opacity: 1;
+  transform: rotatez(-3deg);
 }
