@@ -36,10 +36,9 @@
 
 .product-hero {
   left: 35%;
-  order: 2;
   position: relative;
-  top: -70px;
-  left: -20px;
+  margin-top: -70px;
+  margin-left: -20px;
   transform: rotate(15.265deg);
   filter: drop-shadow(100px -42px 0 var(--secondary-color));
   img {
@@ -49,6 +48,9 @@
 
 .product {
   transition: 1s;
+  img {
+    transition: 1s;
+  }
 }
 
 .product-other {
@@ -57,14 +59,6 @@
   img {
     height: 515px;
   }
-}
-
-.product-other-left {
-  order: 1;
-}
-
-.product-other-right {
-  order: 3;
 }
 
 .product-carouzel {
@@ -81,4 +75,55 @@
 
 .hidden {
   display: none;
+}
+
+.product-1 {
+  left: 0;
+}
+
+.product-2 {
+  left: 0;
+}
+
+.product-3 {
+  left: 0;
+}
+
+.product-1.product-hero {
+  left: 528px;
+}
+
+.product-1.product-other-right {
+  left: 1155px;
+}
+
+.product-3.product-hero {
+  left: -568px;
+}
+
+.product-3.product-other-left {
+  left: -1155px;
+}
+
+.product-2.product-other-left {
+  left: -548px;
+}
+
+.product-2.product-other-right {
+  left: 548px;
+}
+
+.products-arrow-left,
+.products-arrow-right {
+  position: relative;
+  transition: 0.2s;
+  left: 0;
+}
+
+.products-arrow-left:hover {
+  left: -10px;
+}
+
+.products-arrow-right:hover {
+  left: 10px;
 }

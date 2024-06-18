@@ -1,6 +1,6 @@
-var productLeft = document.querySelector(".product-other-left");
-var productRight = document.querySelector(".product-other-right");
-var productHero = document.querySelector(".product-hero");
+var product1 = document.querySelector(".product-1");
+var product2 = document.querySelector(".product-2");
+var product3 = document.querySelector(".product-3");
 
 var arrowLeft1 = document.querySelector(".left1");
 var arrowLeft2 = document.querySelector(".left2");
@@ -16,11 +16,29 @@ var arrowRight4 = document.querySelector(".right4");
 var arrowRight5 = document.querySelector(".right5");
 var arrowRight6 = document.querySelector(".right6");
 
+var product2Title = document.querySelector(".product-2-title");
+var product1Title = document.querySelector(".product-1-title");
+var product3Title = document.querySelector(".product-3-title");
+
+var infoGLuten = document.querySelector(".product-info-gluten");
+
 var left12 = function () {
   arrowLeft1.classList.toggle("hidden");
   arrowLeft2.classList.toggle("hidden");
   arrowRight1.classList.toggle("hidden");
   arrowRight4.classList.toggle("hidden");
+
+  product1Title.classList.toggle("hidden");
+  product2Title.classList.toggle("hidden");
+  infoGLuten.classList.toggle("hidden");
+
+  product1.classList.toggle("product-hero");
+  product1.classList.toggle("product-other");
+  product1.classList.toggle("product-other-left");
+
+  product2.classList.toggle("product-hero");
+  product2.classList.toggle("product-other");
+  product2.classList.toggle("product-other-left");
 };
 
 var right46 = function () {
@@ -28,6 +46,18 @@ var right46 = function () {
   arrowRight6.classList.toggle("hidden");
   arrowLeft2.classList.toggle("hidden");
   arrowLeft6.classList.toggle("hidden");
+
+  product1Title.classList.toggle("hidden");
+  product3Title.classList.toggle("hidden");
+  infoGLuten.classList.toggle("hidden");
+
+  product1.classList.toggle("product-hero");
+  product1.classList.toggle("product-other");
+  product1.classList.toggle("product-other-right");
+
+  product3.classList.toggle("product-hero");
+  product3.classList.toggle("product-other");
+  product3.classList.toggle("product-other-right");
 };
 
 var left64 = function () {
@@ -35,6 +65,17 @@ var left64 = function () {
   arrowLeft4.classList.toggle("hidden");
   arrowRight6.classList.toggle("hidden");
   arrowRight3.classList.toggle("hidden");
+
+  product2Title.classList.toggle("hidden");
+  product3Title.classList.toggle("hidden");
+
+  product2.classList.toggle("product-hero");
+  product2.classList.toggle("product-other");
+  product2.classList.toggle("product-other-left");
+
+  product3.classList.toggle("product-hero");
+  product3.classList.toggle("product-other");
+  product3.classList.toggle("product-other-left");
 };
 
 var right35 = function () {
@@ -42,6 +83,18 @@ var right35 = function () {
   arrowRight5.classList.toggle("hidden");
   arrowLeft4.classList.toggle("hidden");
   arrowLeft5.classList.toggle("hidden");
+
+  product1Title.classList.toggle("hidden");
+  product2Title.classList.toggle("hidden");
+  infoGLuten.classList.toggle("hidden");
+
+  product1.classList.toggle("product-hero");
+  product1.classList.toggle("product-other");
+  product1.classList.toggle("product-other-right");
+
+  product2.classList.toggle("product-hero");
+  product2.classList.toggle("product-other");
+  product2.classList.toggle("product-other-right");
 };
 
 var left53 = function () {
@@ -49,6 +102,18 @@ var left53 = function () {
   arrowRight5.classList.toggle("hidden");
   arrowLeft5.classList.toggle("hidden");
   arrowLeft3.classList.toggle("hidden");
+
+  product1Title.classList.toggle("hidden");
+  product3Title.classList.toggle("hidden");
+  infoGLuten.classList.toggle("hidden");
+
+  product1.classList.toggle("product-hero");
+  product1.classList.toggle("product-other");
+  product1.classList.toggle("product-other-left");
+
+  product3.classList.toggle("product-hero");
+  product3.classList.toggle("product-other");
+  product3.classList.toggle("product-other-left");
 };
 
 var right21 = function () {
@@ -56,39 +121,18 @@ var right21 = function () {
   arrowRight1.classList.toggle("hidden");
   arrowLeft3.classList.toggle("hidden");
   arrowLeft1.classList.toggle("hidden");
+
+  product2Title.classList.toggle("hidden");
+  product3Title.classList.toggle("hidden");
+
+  product3.classList.toggle("product-hero");
+  product3.classList.toggle("product-other");
+  product3.classList.toggle("product-other-right");
+
+  product2.classList.toggle("product-hero");
+  product2.classList.toggle("product-other");
+  product2.classList.toggle("product-other-right");
 };
-
-// var left = function () {
-//   productLeft.classList.toggle("product-hero");
-//   productLeft.classList.toggle("product-other");
-//   productLeft.classList.toggle("product-other-left");
-//   productHero.classList.toggle("product-other");
-//   productHero.classList.toggle("product-other-left");
-//   productHero.classList.toggle("product-hero");
-
-//   productRight.classList.remove("product-hero");
-//   productRight.classList.add("product-other");
-//   productRight.classList.add("product-other-right");
-
-//   arrowLeft.classList.add("hidden");
-//   arrowLeft2.classList.remove("hidden");
-// };
-
-// var right1 = function () {
-//   productRight.classList.toggle("product-hero");
-//   productRight.classList.toggle("product-other");
-//   productRight.classList.toggle("product-other-right");
-//   productHero.classList.toggle("product-other");
-//   productHero.classList.toggle("product-other-right");
-//   productHero.classList.toggle("product-hero");
-
-//   productLeft.classList.remove("product-hero");
-//   productLeft.classList.add("product-other");
-//   productLeft.classList.add("product-other-left");
-// };
-
-// arrowLeft.addEventListener("click", left);
-// arrowRight.addEventListener("click", right1);
 
 arrowLeft1.addEventListener("click", left12);
 arrowLeft2.addEventListener("click", left12);

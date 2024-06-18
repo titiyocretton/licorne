@@ -14,19 +14,25 @@
   align-items: center;
 }
 
-.product-info-bottom p:first-child {
+.product-info-gluten p {
+  background-image: url(../img/background-sans-gluten.svg);
+  width: 156px;
+  height: 28px;
+}
+
+.product-info-bottom p:nth-child(2) {
   background-image: url(../img/baclground-bio.svg);
   height: 27px;
   width: 74px;
 }
 
-.product-info-bottom p:nth-child(2) {
+.product-info-bottom p:nth-child(3) {
   background-image: url(../img/background-sans-alcool.svg);
   width: 155px;
   height: 28px;
 }
 
-.product-info-bottom p:nth-child(3) {
+.product-info-bottom p:nth-child(4) {
   background-image: url(../img/background-local.svg);
   width: 229px;
   height: 25px;
