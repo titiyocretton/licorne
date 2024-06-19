@@ -27,6 +27,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  font-size: 16px;
 }
 
 .footer-background-container {
@@ -63,4 +64,12 @@ footer {
 .footer-decorativ svg path {
   fill: var(--secondary-color);
   opacity: 40%;
+}
+
+.footer-logo-container svg:hover path {
+  fill: var(--darker-color);
+}
+
+.footer-logo-container svg path {
+  transition: 0.2s;
 }

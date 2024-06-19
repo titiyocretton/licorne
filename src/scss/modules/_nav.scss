@@ -2,7 +2,7 @@
 .nav-secondary {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 25px;
+  padding: 25px 0;
 }
 
 .nav-secondary svg {
@@ -44,4 +44,15 @@
 .nav-secondary a:hover .nav-decorativ {
   opacity: 1;
   transform: rotatez(-3deg);
+}
+
+.nav-contain {
+  background: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-space {
+  height: 75px;
 }

@@ -23,14 +23,14 @@ var product3Title = document.querySelector(".product-3-title");
 var infoGLuten = document.querySelector(".product-info-gluten");
 
 var left12 = function () {
-  arrowLeft1.classList.toggle("hidden");
-  arrowLeft2.classList.toggle("hidden");
-  arrowRight1.classList.toggle("hidden");
-  arrowRight4.classList.toggle("hidden");
+  arrowLeft1.classList.toggle("product-hidden");
+  arrowLeft2.classList.toggle("product-hidden");
+  arrowRight1.classList.toggle("product-hidden");
+  arrowRight4.classList.toggle("product-hidden");
 
-  product1Title.classList.toggle("hidden");
-  product2Title.classList.toggle("hidden");
-  infoGLuten.classList.toggle("hidden");
+  product1Title.classList.toggle("product-hidden");
+  product2Title.classList.toggle("product-hidden");
+  infoGLuten.classList.toggle("product-hidden");
 
   product1.classList.toggle("product-hero");
   product1.classList.toggle("product-other");
@@ -42,14 +42,14 @@ var left12 = function () {
 };
 
 var right46 = function () {
-  arrowRight4.classList.toggle("hidden");
-  arrowRight6.classList.toggle("hidden");
-  arrowLeft2.classList.toggle("hidden");
-  arrowLeft6.classList.toggle("hidden");
+  arrowRight4.classList.toggle("product-hidden");
+  arrowRight6.classList.toggle("product-hidden");
+  arrowLeft2.classList.toggle("product-hidden");
+  arrowLeft6.classList.toggle("product-hidden");
 
-  product1Title.classList.toggle("hidden");
-  product3Title.classList.toggle("hidden");
-  infoGLuten.classList.toggle("hidden");
+  product1Title.classList.toggle("product-hidden");
+  product3Title.classList.toggle("product-hidden");
+  infoGLuten.classList.toggle("product-hidden");
 
   product1.classList.toggle("product-hero");
   product1.classList.toggle("product-other");
@@ -61,13 +61,13 @@ var right46 = function () {
 };
 
 var left64 = function () {
-  arrowLeft6.classList.toggle("hidden");
-  arrowLeft4.classList.toggle("hidden");
-  arrowRight6.classList.toggle("hidden");
-  arrowRight3.classList.toggle("hidden");
+  arrowLeft6.classList.toggle("product-hidden");
+  arrowLeft4.classList.toggle("product-hidden");
+  arrowRight6.classList.toggle("product-hidden");
+  arrowRight3.classList.toggle("product-hidden");
 
-  product2Title.classList.toggle("hidden");
-  product3Title.classList.toggle("hidden");
+  product2Title.classList.toggle("product-hidden");
+  product3Title.classList.toggle("product-hidden");
 
   product2.classList.toggle("product-hero");
   product2.classList.toggle("product-other");
@@ -79,14 +79,14 @@ var left64 = function () {
 };
 
 var right35 = function () {
-  arrowRight3.classList.toggle("hidden");
-  arrowRight5.classList.toggle("hidden");
-  arrowLeft4.classList.toggle("hidden");
-  arrowLeft5.classList.toggle("hidden");
+  arrowRight3.classList.toggle("product-hidden");
+  arrowRight5.classList.toggle("product-hidden");
+  arrowLeft4.classList.toggle("product-hidden");
+  arrowLeft5.classList.toggle("product-hidden");
 
-  product1Title.classList.toggle("hidden");
-  product2Title.classList.toggle("hidden");
-  infoGLuten.classList.toggle("hidden");
+  product1Title.classList.toggle("product-hidden");
+  product2Title.classList.toggle("product-hidden");
+  infoGLuten.classList.toggle("product-hidden");
 
   product1.classList.toggle("product-hero");
   product1.classList.toggle("product-other");
@@ -98,14 +98,14 @@ var right35 = function () {
 };
 
 var left53 = function () {
-  arrowRight2.classList.toggle("hidden");
-  arrowRight5.classList.toggle("hidden");
-  arrowLeft5.classList.toggle("hidden");
-  arrowLeft3.classList.toggle("hidden");
+  arrowRight2.classList.toggle("product-hidden");
+  arrowRight5.classList.toggle("product-hidden");
+  arrowLeft5.classList.toggle("product-hidden");
+  arrowLeft3.classList.toggle("product-hidden");
 
-  product1Title.classList.toggle("hidden");
-  product3Title.classList.toggle("hidden");
-  infoGLuten.classList.toggle("hidden");
+  product1Title.classList.toggle("product-hidden");
+  product3Title.classList.toggle("product-hidden");
+  infoGLuten.classList.toggle("product-hidden");
 
   product1.classList.toggle("product-hero");
   product1.classList.toggle("product-other");
@@ -117,13 +117,13 @@ var left53 = function () {
 };
 
 var right21 = function () {
-  arrowRight2.classList.toggle("hidden");
-  arrowRight1.classList.toggle("hidden");
-  arrowLeft3.classList.toggle("hidden");
-  arrowLeft1.classList.toggle("hidden");
+  arrowRight2.classList.toggle("product-hidden");
+  arrowRight1.classList.toggle("product-hidden");
+  arrowLeft3.classList.toggle("product-hidden");
+  arrowLeft1.classList.toggle("product-hidden");
 
-  product2Title.classList.toggle("hidden");
-  product3Title.classList.toggle("hidden");
+  product2Title.classList.toggle("product-hidden");
+  product3Title.classList.toggle("product-hidden");
 
   product3.classList.toggle("product-hero");
   product3.classList.toggle("product-other");
