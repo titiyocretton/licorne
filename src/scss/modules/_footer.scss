@@ -74,3 +74,12 @@ footer {
 .footer-logo-container svg path {
   transition: 0.2s;
 }
+
+.footer-bottom a {
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.footer-bottom a:hover {
+  color: var(--primary-color);
+}
